@@ -1,0 +1,15 @@
+{
+  "name": "rescript",
+  "version": "1.0.0",
+  "description": "A monorepo to contain my ReScript projects.",
+  "scripts": {
+    "preinstall": "npx only-allow pnpm"
+  },
+  "keywords": [
+    "rescript",
+    "monorepo",
+    "pnpm"
+  ],
+  "author": "Shaun Chander",
+  "license": "MIT"
+}
