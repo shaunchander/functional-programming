@@ -1,0 +1,7 @@
+# pnpm
+**/**/node_modules
+
+# rescript
+**/**/.merlin
+**/**/lib
+**/**/.bsb.lock
