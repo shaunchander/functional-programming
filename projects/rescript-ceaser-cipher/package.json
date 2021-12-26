@@ -1,0 +1,23 @@
+{
+  "name": "rescript-ceaser-cipher",
+  "version": "1.0.0",
+  "description": "A Ceaser's Cipher encryption-decryption tool built on ReScript to practice introductory concepts in the language.",
+  "source": "src/index.html",
+  "scripts": {
+    "start": "parcel",
+    "build": "parcel build",
+    "rescript:watch": "rescript build -w"
+  },
+  "keywords": [
+    "rescript",
+    "todo",
+    "list"
+  ],
+  "author": "Shaun Chander",
+  "license": "MIT",
+  "dependencies": {
+    "live-server": "^1.2.1",
+    "parcel": "^2.0.1",
+    "rescript": "^9.1.4"
+  }
+}
