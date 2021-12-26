@@ -58,7 +58,17 @@ let ceaserCipherInterpretor = (~text: string, ~shift: int, ~mode: mode) => {
   let intermediateMessage = ""
 
   // Break up our text into an array.
-  let textAsArray = Js.String.split(text)
+  let textAsArray = Js.String.split(text, "")
 
   // Iterate our text array and either encrypt or decrypt depending on the mode.
+  switch mode {
+  | Encrypt => {
+      let encryptedTextArray = Belt.Array.map(textAsArray, letterInArray => {
+        let indexOfLetterInAlphabet = Belt.Array.getIndexBy(alphabet, letterInAlphabet =>
+          // Grab the index of the letter in the alphabet
+          letterInAlphabet === Js.String.toUpperCase(letterInArray)
+        )
+      })
+    }
+  }
 }

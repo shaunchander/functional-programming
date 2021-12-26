@@ -7,5 +7,5 @@
 **/**/.bsb.lock
 
 # parcel
-.parce-cache
+.parcel-cache
 **/**/dist

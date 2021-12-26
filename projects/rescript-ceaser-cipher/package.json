@@ -2,10 +2,8 @@
   "name": "rescript-ceaser-cipher",
   "version": "1.0.0",
   "description": "A Ceaser's Cipher encryption-decryption tool built on ReScript to practice introductory concepts in the language.",
-  "source": "src/index.html",
   "scripts": {
-    "start": "parcel",
-    "build": "parcel build",
+    "start": "cd ./src && live-server",
     "rescript:watch": "rescript build -w"
   },
   "keywords": [
@@ -17,7 +15,6 @@
   "license": "MIT",
   "dependencies": {
     "live-server": "^1.2.1",
-    "parcel": "^2.0.1",
     "rescript": "^9.1.4"
   }
 }
