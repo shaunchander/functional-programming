@@ -1,4 +1,4 @@
-# rescript-ceasers-cipher
+# rescript-ceaser-cipher
 
 👋 My first ReScript project! I wanted to immedietly apply the fundamentals of ReScript to a fun cyptography project. I tried to comment everything in my code so you can follow along with my thought process.
 
