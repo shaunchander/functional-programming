@@ -2,6 +2,14 @@
 
 👋 My first ReScript project! I wanted to immedietly apply the fundamentals of ReScript to a fun cyptography project. I tried to comment everything in my code so you can follow along with my thought process.
 
+## Getting started
+
+This is a web project! Feel free to clone this and run `pnpm i` to install the necessary packages.
+
+Then run `pnpm start` to start a dev-server.
+
+If you want to run ReScript's build step in watch mode then run `pnpm rescript:watch`.
+
 I think it's a good idea to journal some of my initial thoughts, pros, and cons of ReScript while doing these projects so here goes:
 
 ### Initial thoughts
