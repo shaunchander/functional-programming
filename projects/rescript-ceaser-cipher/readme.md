@@ -4,7 +4,9 @@
 
 ## Getting started
 
-This is a web project! Feel free to clone this and run `pnpm i` to install the necessary packages.
+This is a web project! You can access it here for a quick demo: [https://rescript-ceaser-cipher.netlify.app/](https://rescript-ceaser-cipher.netlify.app/)
+
+Feel free to clone this and run `pnpm i` to install the necessary packages.
 
 Then run `pnpm start` to start a dev-server.
 
