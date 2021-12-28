@@ -147,7 +147,6 @@ encryptNode.addEventListener(."click", _ => {
 
 // Listen for a submission from our "decrypt" button
 decryptNode.addEventListener(."click", _ => {
-  Js.log("Test")
   let message = messageNode.value
   let shift = shiftNode.value
 

@@ -101,7 +101,6 @@ encryptNode.addEventListener("click", (function (param) {
       }));
 
 decryptNode.addEventListener("click", (function (param) {
-        console.log("Test");
         var message = messageNode.value;
         var shift = shiftNode.value;
         if (message.length <= 0 || shift.length <= 0) {
